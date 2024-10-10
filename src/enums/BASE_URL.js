@@ -1,1 +1,1 @@
-export default "http://localhost:3222"
+export default "https://ecommerceserverv2-abzp.onrender.com"
