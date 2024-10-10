@@ -200,7 +200,9 @@ function App() {
             </ProtectedRoute>
           }
         ></Route>
-        <Route path={"/login" || "/"}  element={<Login />}></Route>
+        <Route path="/login"   element={<Login />}></Route>
+        <Route path="/"   element={<Login />}></Route>
+
       </Routes>
     </div>
   );
